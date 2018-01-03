@@ -1,0 +1,36 @@
+#thecanvas{
+	background-color:darkseagreen;
+	border: 1px solid #FFFFFF;
+}
+button{
+	padding: 50px;
+	background: grey;
+	margin: 5px;
+	border-radius: 5px
+	
+}
+button:active{
+	background-color: 
+#515966
+;
+}
+#keypad{
+	background-color:darkgray;
+	padding: 10px;
+	font-family: "Century Gothic";
+	text-align: center;
+	display: inline-block
+}
+#viewpad{
+	font-family: impact;
+	background-color: black;
+	display: inline-block;
+	padding: 10px;
+	color: aliceblue;
+}
+body {
+	user-select:none;
+}
+.selected{
+	border-color: aqua;
+}
