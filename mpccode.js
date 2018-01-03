@@ -40,7 +40,7 @@ $(document).ready(function(){
 	audioctx = new AudioContext();
 
 	var mouseDown = false;
-	loadMusic('song4.mp3');
+	loadMusic('song.mp3');
 	$(".pad").mousedown(function(){
 		selectedPad = this.value;
 		playPad();
